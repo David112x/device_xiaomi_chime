@@ -207,7 +207,7 @@ vendor.gralloc.secure_preview_buffer_format=420_sp
 vendor.display.use_smooth_motion=1
 vendor.display.disable_rotator_downscale=1
 debug.renderengine.backend=threaded
-
+debug.sf.disable_client_composition_cache=1
 
 # Google WFD settings
 persist.debug.wfd.enable=1
