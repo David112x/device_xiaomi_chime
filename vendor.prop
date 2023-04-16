@@ -208,9 +208,10 @@ vendor.display.use_smooth_motion=1
 vendor.display.disable_rotator_downscale=1
 debug.renderengine.backend=threaded
 
+
 # Google WFD settings
 persist.debug.wfd.enable=1
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 persist.sys.wfd.virtual=0
 
 # Keystore
