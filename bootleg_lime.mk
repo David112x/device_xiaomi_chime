@@ -31,8 +31,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Maintainer Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=hani~🤍
-BOOTLEGGERS_BUILD_TYPE := UnShishufied
+DEVICE_MAINTAINER := hani~🤍
+BOOTLEGGERS_BUILD_TYPE := Shishufied
 TARGET_BOOTLEG_ARCH := arm64
 WITH_GAPPS := true
