@@ -17,3 +17,6 @@ git clone https://gitlab.com/itsHanibee/vendor_xiaomi_lime -b lineage-20 vendor/
 # Hardware
 rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
+
+# Snapdragon Clang 16.1.0
+git clone https://gitlab.com/itsHanibee/snapdragon-clang --depth=1 -b aosp-13 prebuilts/clang/host/linux-x86/clang-snapdragon
