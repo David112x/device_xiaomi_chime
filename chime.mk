@@ -157,6 +157,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvulkan
 
+# Dolby Atmos
+$(call inherit-product-if-exists, vendor/xiaomi/chime-dolby/dolby.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
